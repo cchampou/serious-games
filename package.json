@@ -1,0 +1,9 @@
+{
+  "name": "serious-games",
+  "version": "0.0.0-dev",
+  "description": "Shop for Michael's games",
+  "repository": "git@github.com:cchampou/serious-games.git",
+  "author": "cchampou <clement@champouillon.com>",
+  "license": "MIT",
+  "private": true
+}
