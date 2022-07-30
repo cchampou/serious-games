@@ -5,5 +5,8 @@
   "repository": "git@github.com:cchampou/serious-games.git",
   "author": "cchampou <clement@champouillon.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "workspaces": [
+    "*/**/"
+  ]
 }
