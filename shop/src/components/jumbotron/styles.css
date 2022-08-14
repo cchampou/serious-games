@@ -11,10 +11,6 @@
   position: relative;
 }
 
-.jumbotron > *:last-child {
-  flex: 2;
-}
-
 .jumbotron > *:last-child > div {
   position: absolute;
   top: 0;
@@ -26,8 +22,8 @@
 
 .jumbotron img {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: 75vh;
   animation: fadeIn 1.5s;
 }
 
