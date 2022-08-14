@@ -1,0 +1,11 @@
+.lead {
+  margin: 0;
+  padding: 200px 10%;
+  width: 80%;
+  font-family: sans-serif;
+  background-color: var(--primaryColor);
+  color: var(--white);
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
