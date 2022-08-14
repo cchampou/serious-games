@@ -7,6 +7,7 @@ header {
   border-style: solid;
   border-color: #ccc;
   justify-content: space-between;
+  animation: fadeInTop 1s;
 }
 
 header ul {
