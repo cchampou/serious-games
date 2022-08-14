@@ -4,15 +4,16 @@ import GameCard from '../components/gameCard/GameCard';
 import GameGallery from '../components/gameGallery/GameGallery';
 import aces from '../assets/aces.jpg';
 
+const games = ['Aces', 'Monopoly', 'Risk', 'Roulette', 'Texas Holdem'];
+
 function Browse() {
   return (
     <>
       <Header />
       <GameGallery>
-        <GameCard name="Monopoly" />
-        <GameCard name="Poker" />
-        <GameCard name="Ninja" />
-        <GameCard name="Uno" />
+        {games.map((name, index) => (
+          <GameCard name={name} index={index} />
+        ))}
       </GameGallery>
       <img src={aces} alt="aces" id="aces" />
     </>
