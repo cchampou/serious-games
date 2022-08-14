@@ -19,8 +19,8 @@ function Jumbotron({ callToAction }: props) {
     <div className="jumbotron">
       <div>
         <h1>
-          The best solution for an interactive and inspiring learning
-          experience.
+          The best solution for an interactive and <strong>inspiring</strong>{' '}
+          learning experience.
         </h1>
         <Button onClick={callToActionHandler} type="button">
           Buy now

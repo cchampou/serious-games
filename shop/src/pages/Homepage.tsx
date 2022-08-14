@@ -2,7 +2,7 @@ import React from 'react';
 import Jumbotron from '../components/jumbotron/Jumbotron';
 import Header from '../components/header/Header';
 import Lead from '../components/lead/Lead';
-import section from '../assets/sample-section.png';
+// import section from '../assets/sample-section.png';
 
 function Homepage() {
   return (
@@ -10,7 +10,7 @@ function Homepage() {
       <Header />
       <Jumbotron callToAction="/browse" />
       <Lead />
-      <img src={section} alt="sample section" />
+      {/*<img src={section} alt="sample section" />*/}
     </>
   );
 }
