@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/header/Header';
 import GameCard from '../components/gameCard/GameCard';
 import GameGallery from '../components/gameGallery/GameGallery';
+import aces from '../assets/aces.jpg';
 
 function Browse() {
   return (
@@ -13,6 +14,7 @@ function Browse() {
         <GameCard name="Ninja" />
         <GameCard name="Uno" />
       </GameGallery>
+      <img src={aces} alt="aces" id="aces" />
     </>
   );
 }

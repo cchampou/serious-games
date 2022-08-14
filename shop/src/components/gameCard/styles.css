@@ -8,7 +8,7 @@
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  margin: 64px;
+  margin: 128px 8px;
 }
 
 .game-card h2 {
