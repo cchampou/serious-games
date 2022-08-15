@@ -1,13 +1,10 @@
 import React from 'react';
-import Header from '../components/header/Header';
+import pageLayout from '../hocs/pageLayout';
+
+type Props = Record<string, never>;
 
 function About() {
-  return (
-    <>
-      <Header />
-      <h1>About</h1>
-    </>
-  );
+  return <h1>About</h1>;
 }
 
-export default About;
+export default pageLayout<Props>(About);

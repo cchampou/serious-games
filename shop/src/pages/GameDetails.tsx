@@ -1,11 +1,10 @@
 import React from 'react';
+import pageLayout from '../hocs/pageLayout';
+
+type Props = Record<string, never>;
 
 function GameDetails() {
-  return (
-    <div>
-      <h1>Game Details</h1>
-    </div>
-  );
+  return <h1>Game Details</h1>;
 }
 
-export default GameDetails;
+export default pageLayout<Props>(GameDetails);

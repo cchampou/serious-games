@@ -1,13 +1,14 @@
 import React from 'react';
 import Jumbotron from '../components/jumbotron/Jumbotron';
-import Header from '../components/header/Header';
 import Lead from '../components/lead/Lead';
 import Aside from '../components/aside/Aside';
+import pageLayout from '../hocs/pageLayout';
+
+type Props = Record<string, never>;
 
 function Homepage() {
   return (
     <>
-      <Header />
       <Jumbotron callToAction="/browse" />
       <Lead />
       <Aside />
@@ -15,4 +16,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default pageLayout<Props>(Homepage);

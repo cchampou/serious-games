@@ -1,13 +1,10 @@
 import React from 'react';
-import Header from '../components/header/Header';
+import pageLayout from '../hocs/pageLayout';
+
+type Props = Record<string, never>;
 
 function Contact() {
-  return (
-    <>
-      <Header />
-      <h1>Contact</h1>
-    </>
-  );
+  return <h1>Contact</h1>;
 }
 
-export default Contact;
+export default pageLayout<Props>(Contact);
