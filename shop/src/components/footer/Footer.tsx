@@ -21,6 +21,13 @@ function Footer() {
       >
         Source code on Github
       </a>
+      <a
+        href="https://github.com/users/cchampou/projects/4"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Project on Github
+      </a>
     </footer>
   );
 }
