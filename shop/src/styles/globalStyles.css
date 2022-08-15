@@ -13,6 +13,10 @@ h1 {
   color: var(--black);
 }
 
+h2 {
+  font-weight: lighter;
+}
+
 a {
   color: inherit;
   text-decoration: none;
