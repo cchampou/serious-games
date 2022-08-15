@@ -14,3 +14,7 @@ const TEXT_CONTENT =
 export const Default = () => (
   <Aside title={TITLE} textContent={TEXT_CONTENT} image={poker} />
 );
+
+export const Reverse = () => (
+  <Aside title={TITLE} textContent={TEXT_CONTENT} image={poker} reverse />
+);
