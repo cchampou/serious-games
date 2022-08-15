@@ -1,6 +1,6 @@
 import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import chess from '../../assets/chess-white-background.jpg';
+import chess from '../../assets/poker.jpg';
 
 import './styles.css';
 
