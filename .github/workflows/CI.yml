@@ -10,9 +10,8 @@ jobs:
     steps:
       - name: Checkout code ⏬
         uses: actions/checkout@v3
-      - name: Move to shop directory
-        run: cd shop
       - name: Install dependencies 📦️
         run: yarn install
-      - name: Lint code 🚨️
+      - name: Lint code 💅️
+        working-directory: shop
         run: yarn lint
