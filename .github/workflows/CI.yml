@@ -1,0 +1,18 @@
+name: Continuous Integration
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code ⏬
+        uses: actions/checkout@v3
+      - name: Move to shop directory
+        run: cd shop
+      - name: Install dependencies 📦️
+        run: yarn install
+      - name: Lint code 🚨️
+        run: yarn lint
