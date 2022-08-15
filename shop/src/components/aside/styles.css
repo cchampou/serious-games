@@ -2,6 +2,11 @@
   display: flex;
   align-items: center;
   width: 100%;
+  margin: 128px 0;
+}
+
+.aside-reverse {
+  flex-direction: row-reverse;
 }
 
 .aside > * {

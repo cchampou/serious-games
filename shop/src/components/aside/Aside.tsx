@@ -3,20 +3,26 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import chess from '../../assets/poker.jpg';
 
 import './styles.css';
+import classNames from 'classnames';
 
-function Aside() {
+type Props = {
+  title: string;
+  image: string;
+  textContent: string;
+  reverse?: boolean;
+};
+
+function Aside({ title, textContent, image, reverse = false }: Props) {
   return (
-    <div className="aside">
-      <AnimationOnScroll animateIn="animate__fadeInLeft">
-        <img src={chess} alt="Chess" />
+    <div className={classNames('aside', { 'aside-reverse': reverse })}>
+      <AnimationOnScroll
+        animateIn={reverse ? 'animate__fadeInRight' : 'animate__fadeInLeft'}
+      >
+        <img src={image} alt={title} />
       </AnimationOnScroll>
       <section>
-        <h2>
-          Play with your
-          <br />
-          <strong>friends</strong>
-        </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h2>{title}</h2>
+        <p>{textContent}</p>
       </section>
     </div>
   );
