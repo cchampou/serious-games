@@ -4,6 +4,7 @@ import Lead from '../components/lead/Lead';
 import Aside from '../components/aside/Aside';
 import pageLayout from '../hocs/pageLayout';
 import poker from '../assets/poker.jpg';
+import boardGame from '../assets/monop.jpg';
 
 type Props = Record<string, never>;
 
@@ -19,7 +20,17 @@ const LEAD_TEXT = `Want to get your organization ready for the future? Want to s
 function Homepage() {
   return (
     <>
-      <Jumbotron callToAction="/browse" />
+      <Jumbotron
+        callToActionPath="/browse"
+        callToActionText="Buy now"
+        title={
+          <>
+            The best solution for an interactive and <strong>inspiring</strong>{' '}
+            learning experience.
+          </>
+        }
+        image={boardGame}
+      />
       <Lead text={LEAD_TEXT} />
       <Aside title={TITLE} textContent={TEXT_CONTENT} image={poker} />
       <Aside title={TITLE} textContent={TEXT_CONTENT} image={poker} reverse />

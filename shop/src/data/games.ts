@@ -4,15 +4,15 @@ import monopoly from '../assets/monop.jpg';
 const games: GameEntity[] = [
   {
     id: 1,
+    image: poker,
     name: 'Poker',
     price: 10,
-    image: poker,
   },
   {
     id: 2,
+    image: monopoly,
     name: 'Monopoly',
     price: 20,
-    image: monopoly,
   },
 ];
 

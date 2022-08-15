@@ -1,33 +1,37 @@
 import React from 'react';
 import './styles.css';
-import boardGame from '../../assets/monop.jpg';
 import Button from '../button/Button';
 import { useNavigate } from 'react-router-dom';
 
 type props = {
-  callToAction: string;
+  callToActionPath: string;
+  callToActionText: string;
+  title: string | JSX.Element;
+  image: string;
 };
 
-function Jumbotron({ callToAction }: props) {
+function Jumbotron({
+  callToActionPath,
+  callToActionText,
+  title,
+  image,
+}: props) {
   const navigate = useNavigate();
 
   const callToActionHandler = () => {
-    navigate(callToAction);
+    navigate(callToActionPath);
   };
 
   return (
     <div className="jumbotron">
       <div>
-        <h1>
-          The best solution for an interactive and <strong>inspiring</strong>{' '}
-          learning experience.
-        </h1>
+        <h1>{title}</h1>
         <Button onClick={callToActionHandler} type="button">
-          Buy now
+          {callToActionText}
         </Button>
       </div>
       <div>
-        <img src={boardGame} alt="chess" />
+        <img src={image} alt="chess" />
         <div />
       </div>
     </div>
