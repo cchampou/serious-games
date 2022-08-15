@@ -1,0 +1,30 @@
+.aside {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.aside > * {
+  flex: 1;
+  padding: 1rem 10vw;
+}
+
+.aside img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.aside h2 {
+  font-weight: lighter;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+.aside h2 strong {
+  font-weight: bold;
+}
+
+.aside p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}

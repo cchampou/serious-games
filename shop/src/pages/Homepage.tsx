@@ -2,6 +2,7 @@ import React from 'react';
 import Jumbotron from '../components/jumbotron/Jumbotron';
 import Header from '../components/header/Header';
 import Lead from '../components/lead/Lead';
+import Aside from '../components/aside/Aside';
 
 function Homepage() {
   return (
@@ -9,6 +10,7 @@ function Homepage() {
       <Header />
       <Jumbotron callToAction="/browse" />
       <Lead />
+      <Aside />
     </>
   );
 }
