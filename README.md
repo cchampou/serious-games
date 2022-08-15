@@ -19,3 +19,10 @@
 - [API folder](./api) future API code
 
 ## Features
+
+For now, there is only a single page application, the "shop",
+well, at least, for now it's a landing page.
+
+## Roadmap
+
+See [the project page on Github](https://github.com/users/cchampou/projects/4).
