@@ -1,18 +1,13 @@
 {
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-
-  },
   "extends": [
     "plugin:@typescript-eslint/recommended",
+    "plugin:storybook/recommended",
     "prettier"
   ],
-  "plugins": [
-    "@typescript-eslint",
-    "prettier"
-  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {},
+  "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
     "prettier/prettier": "error"
   }
 }
-
