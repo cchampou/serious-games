@@ -1,10 +1,11 @@
 import React from 'react';
 import pageLayout from '../hocs/pageLayout';
+import ContactForm from '../components/contactForm/ContactForm';
 
 type Props = Record<string, never>;
 
 function Contact() {
-  return <h1>Contact</h1>;
+  return <ContactForm />;
 }
 
 export default pageLayout<Props>(Contact);

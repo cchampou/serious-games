@@ -3,4 +3,5 @@ declare interface GameEntity {
   name: string;
   price: number;
   image: string;
+  description: string;
 }

@@ -7,7 +7,6 @@ header {
   border-style: solid;
   border-color: #ccc;
   justify-content: space-between;
-  animation: fadeInTop 1s;
   font-family: sans-serif;
   font-weight: normal;
 }
