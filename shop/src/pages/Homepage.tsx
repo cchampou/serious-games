@@ -4,7 +4,6 @@ import Lead from '../components/lead/Lead';
 import Aside from '../components/aside/Aside';
 import pageLayout from '../hocs/pageLayout';
 import poker from '../assets/poker.jpg';
-import boardGame from '../assets/monop.jpg';
 
 type Props = Record<string, never>;
 
@@ -29,7 +28,6 @@ function Homepage() {
             learning experience.
           </>
         }
-        image={boardGame}
       />
       <Lead text={LEAD_TEXT} />
       <Aside title={TITLE} textContent={TEXT_CONTENT} image={poker} />

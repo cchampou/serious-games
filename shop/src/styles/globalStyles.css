@@ -4,8 +4,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  background-color: white;
-  color: var(--black);
+  background-color: var(--primaryColor);
+  color: var(--white);
 }
 
 h1 {

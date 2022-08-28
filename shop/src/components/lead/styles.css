@@ -10,11 +10,3 @@
   font-size: 1.5rem;
   position: relative;
 }
-
-.lead img {
-  position: absolute;
-  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
-  top: -150px;
-  left: 0;
-  width: 400px;
-}

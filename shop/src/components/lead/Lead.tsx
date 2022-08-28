@@ -1,6 +1,6 @@
 import React from 'react';
-import jokers from '../../assets/jokers.png';
 import './styles.css';
+import Pattern from '../pattern/Pattern';
 
 type Props = {
   text: string;
@@ -9,8 +9,8 @@ type Props = {
 function Lead({ text }: Props) {
   return (
     <div className="lead">
+      <Pattern />
       <p>{text}</p>
-      <img src={jokers} alt="jokers" />
     </div>
   );
 }
