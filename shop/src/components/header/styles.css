@@ -5,10 +5,10 @@ header {
   align-items: center;
   border-width: 0 0 1px 0;
   border-style: solid;
-  border-color: #ccc;
+  border-color: var(--primaryColor);
   justify-content: space-between;
-  font-family: sans-serif;
   font-weight: normal;
+  background-color: var(--primaryColor);
 }
 
 header ul {
@@ -22,11 +22,21 @@ header ul li {
   margin: 0 1rem;
 }
 
+header ul li a {
+  text-decoration: none;
+  color: var(--secondaryColor);
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-size: medium;
+  text-transform: uppercase;
+}
+
 #header-logo {
-  font-weight: 700;
   font-size: 2rem;
   margin: 0 0 0 10rem;
-  color: #010101;
+  color: var(--white);
+  font-weight: bolder;
+  letter-spacing: 5px;
 }
 
 #header-logo img {

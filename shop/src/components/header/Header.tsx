@@ -7,7 +7,8 @@ function Header() {
   return (
     <header>
       <NavLink to="/" id="header-logo">
-        <img src={logo} alt="serious games" />
+        {/*<img src={logo} alt="serious games" />*/}
+        Serious Games
       </NavLink>
       <ul>
         <li>

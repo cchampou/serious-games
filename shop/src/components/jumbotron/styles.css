@@ -1,9 +1,12 @@
 .jumbotron {
   display: flex;
   width: 90%;
+  min-height: 90vh;
   align-items: center;
   padding: 0 0 0 10%;
   justify-content: center;
+  background-color: var(--primaryColor);
+  color: var(--white);
 }
 
 .jumbotron > * {

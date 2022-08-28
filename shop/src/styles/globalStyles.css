@@ -2,15 +2,16 @@
 @import 'theme.css';
 
 body {
-  font-family: 'Spectral', serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
+  background-color: white;
+  color: var(--black);
 }
 
 h1 {
   font-size: 3rem;
   line-height: 3rem;
-  font-weight: normal;
-  color: var(--black);
+  font-weight: lighter;
 }
 
 h2 {

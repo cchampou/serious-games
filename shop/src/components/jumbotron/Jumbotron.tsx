@@ -31,7 +31,7 @@ function Jumbotron({
         </Button>
       </div>
       <div>
-        <img src={image} alt="chess" />
+        {/*<img src={image} alt="chess" />*/}
         <div />
       </div>
     </div>

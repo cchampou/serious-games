@@ -1,5 +1,7 @@
 body {
-  --primaryColor: #01aac1;
+  --primaryColor: rgba(37,46,81,1);
+  --secondaryColor: rgba(227,160,93,1);
+  --terciaryColor: rgba(220,212,191,1);
   --black: #010101;
   --white: #f0f0f0;
 }
